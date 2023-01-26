@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/fruitsVegetables"
+        android:title="@string/category1"
+        >
+    </item>
+
+    <item
+        android:id="@+id/grainsCereals"
+        android:title="@string/category2"
+        >
+    </item>
+
+    <item
+        android:id="@+id/meatSeaPoultry"
+        android:title="@string/category3"
+        >
+    </item>
+
+    <item
+        android:id="@+id/dairy"
+        android:title="@string/category4"
+        >
+    </item>
+
+    <item
+        android:id="@+id/baked"
+        android:title="@string/category5"
+        >
+    </item>
+
+</menu>

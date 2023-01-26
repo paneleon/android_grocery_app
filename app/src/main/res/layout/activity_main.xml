@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        style="@style/app_icon"
+        android:src="@drawable/app_logo"
+        android:contentDescription="@string/app_logo_description"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_logo"
+        android:layout_marginTop="@dimen/bigger_padding_margin"
+        android:textSize="@dimen/large_text"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@color/citron"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_headline"
+        android:textSize="@dimen/medium_text"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/medium_padding_margin"
+        android:textColor="@color/grey"
+         />
+
+    <Button
+        android:text="@string/enter_button"
+        style="@style/main_button"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/enterButton"
+        android:onClick="enterApp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            style="@style/copyright_text"
+            android:text="@string/icon_copyright"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bigger_padding_margin">40dp</dimen>
+    <dimen name="medium_padding_margin">20dp</dimen>
+    <dimen name="small_padding_margin">15dp</dimen>
+    <dimen name="separator_height">2dp</dimen>
+    <dimen name="large_text">12pt</dimen>
+    <dimen name="big_text">10pt</dimen>
+    <dimen name="medium_text">8pt</dimen>
+    <dimen name="table_left_padding">100dp</dimen>
+    <dimen name="empty_space_height">50dp</dimen>
+</resources>

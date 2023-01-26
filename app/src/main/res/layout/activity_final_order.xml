@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".FinalOrderActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:text="@string/back_button"
+        style="@style/back_button"
+        android:onClick="onBackClick"
+        >
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/items_title"
+        android:textSize="@dimen/big_text"
+        android:textColor="@color/yellow_green"
+        android:layout_marginHorizontal="@dimen/bigger_padding_margin"
+        android:layout_marginVertical="@dimen/medium_padding_margin">
+    </TextView>
+
+    <TextView
+        android:id="@+id/itemsInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/bigger_padding_margin">
+    </TextView>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="@dimen/separator_height"
+        android:backgroundTint="@color/asparagus"
+        android:background="?android:attr/listDivider"
+        android:layout_marginStart="@dimen/bigger_padding_margin"/>
+
+    <TextView
+        android:id="@+id/finalSum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/medium_padding_margin"
+        android:text="@string/total"
+        android:layout_marginHorizontal="@dimen/bigger_padding_margin">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/medium_padding_margin"
+        android:id="@+id/paymentInfoLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_title"
+            android:textSize="@dimen/big_text"
+            android:textColor="@color/yellow_green"
+            android:layout_marginHorizontal="@dimen/bigger_padding_margin"
+            android:layout_marginVertical="@dimen/medium_padding_margin">
+        </TextView>
+
+        <TextView
+            android:id="@+id/fullNameFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding_margin"
+            android:text="Full Name: "
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/addressFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding_margin"
+            android:text="Address: "
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/cardInfoFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding_margin"
+            android:text="Card Information: "
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/phoneNumberFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding_margin"
+            android:text="Phone Number: "
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/emailFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding_margin"
+            android:text="Email: "
+            >
+        </TextView>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/bright_citron"
+        android:text="@string/finalize_button"
+        android:onClick="onFinalizeClick">
+
+    </Button>
+
+
+</LinearLayout>
+
+</ScrollView>

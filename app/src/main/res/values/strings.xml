@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Grocery Bud</string>
+    <string name="app_logo">Your Grocery Buddy</string>
+    <string name="app_headline">Only a click away from your door.</string>
+    <string name="start_button">Enter</string>
+    <string name="category1">Fruits and Vegetables</string>
+    <string name="category2">Grains and Cereals</string>
+    <string name="category3">Meat, Sea Foods and Poultry Foods</string>
+    <string name="category4">Dairy Foods and Beverages</string>
+    <string name="category5">Baked Foods</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="cash">Cash</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="debit_card">Debit Card</string>
+
+    <string name="enter_button">Enter</string>
+    <string name="next_button">Next</string>
+    <string name="back_button">Back</string>
+    <string name="checkout_button">Checkout</string>
+    <string name="finalize_button">Confirm</string>
+
+    <string name="start_text">Start filling in your shopping cart by choosing from the menu on top</string>
+    <string name="icon_copyright">Icons were retrieved from Flaticon</string>
+
+    <string name="name">Full Name *</string>
+    <string name="address">Address *</string>
+    <string name="cardNumber">Card Number *</string>
+    <string name="cardCVV">CVV *</string>
+    <string name="phone">Phone Number *</string>
+    <string name="email">Email Address *</string>
+    <string name="comments">Additional Comments</string>
+    <string name="questions_title">Help Us Improve the App!</string>
+    <string name="question1">What is your favorite grocery store?</string>
+    <string name="question2">What are you planning to cook with these ingredients?</string>
+
+    <string name="total">Total: $ </string>
+    <string name="checkout">Checkout</string>
+
+    <string name="items_title">Selected items: </string>
+    <string name="payment_title">Payment Information: </string>
+
+    <string name="app_logo_description">App Logo</string>
+    <string name="items_image_description">Items Logo</string>
+    <string name="empty_cart_image_description">Empty Shopping Cart</string>
+
+    <string name="finalName">Full Name:   </string>
+    <string name="finalAddress">Address:   </string>
+    <string name="finalCardInfo">Card Info:   </string>
+    <string name="finalPhone">Phone Number:   </string>
+    <string name="finalEmail">Email:   </string>
+</resources>
